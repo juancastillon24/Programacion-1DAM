@@ -70,7 +70,7 @@ public class Coche {
     }
 
     public void ImprimeCoche(){
-        System.out.println("Modelo: "+modelo+" Color: "+color);
+        System.out.println("Modelo: "+modelo+"\nColor: "+color);
     }
 }
 

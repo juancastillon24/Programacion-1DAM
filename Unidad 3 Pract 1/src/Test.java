@@ -1,7 +1,6 @@
 public class Test {
     public static void main(String[] args) {
-        Coche c1 = new Coche("Peugeot 208","Rojo",false,"2412ADC",2022,true);
-        System.out.println(c1.toString());
+        Coche c1 = new Coche("Rolls Royce","Dorado",false,"2412ADC",2022,true);
         c1.ImprimeCoche();
     }
 }
