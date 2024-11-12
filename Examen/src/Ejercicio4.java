@@ -24,8 +24,6 @@ public class Ejercicio4 {
                 //Actualizar el primo anterior
                 prim_ant=prim;
             }
-
-
         }
     }
 }

@@ -12,7 +12,10 @@ public class Rectangulo {
     }
 
     public void setAncho(double ancho) {
-        this.ancho = ancho;
+        if (ancho>0)
+            this.ancho = ancho;
+        else
+            this.ancho = 0;
     }
 
     public double getAlto() {
@@ -20,7 +23,10 @@ public class Rectangulo {
     }
 
     public void setAlto(double alto) {
-        this.alto = alto;
+        if (alto>0)
+            this.alto = alto;
+        else
+            this.alto = 0;
     }
 
     public double calcularArea(){
