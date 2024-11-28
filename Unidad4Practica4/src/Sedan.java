@@ -14,10 +14,13 @@ public class Sedan extends Car{
         this.length = length;
     }
 
+
+
     @Override
     public double getSalePrice(){
         if (length>20)
             return regularPrice*0.95;
         else return regularPrice*0.9;
     }
+
 }
